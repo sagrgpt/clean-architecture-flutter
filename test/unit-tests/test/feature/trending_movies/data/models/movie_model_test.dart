@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:movie_scope/feature/trending_movies/data/datasources/movie_model.dart';
+import 'package:movie_scope/feature/trending_movies/data/models/movie_model/movie_model.dart';
 import 'package:movie_scope/feature/trending_movies/domain/entities/movie.dart';
 import 'package:test/test.dart';
 

@@ -1,0 +1,21 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "id": 1,
+      "original_title": "Cruella",
+      "poster_path": "/pathToPoster",
+      "overview": "Overview of the movie",
+      "adult": false
+    },
+    {
+      "id": 1,
+      "original_title": "Rajneeti",
+      "poster_path": "/pathToPoster",
+      "overview": "Overview of the movie",
+      "adult": false
+    }
+  ],
+  "total_pages": 2,
+  "total_results": 4
+}

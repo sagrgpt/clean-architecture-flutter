@@ -1,0 +1,1 @@
+export 'get_trending_page.dart';

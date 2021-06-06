@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 
 import 'package:json_annotation/json_annotation.dart';
-import '../../domain/entities/movie.dart';
+import '../../../domain/entities/movie.dart';
 
 part 'movie_model.g.dart';
 
