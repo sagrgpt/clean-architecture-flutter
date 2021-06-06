@@ -1,10 +1,10 @@
-import 'package:mockito/mockito.dart';
 import 'package:movie_scope/feature/trending_movies/domain/entities/movie.dart';
 import 'package:movie_scope/feature/trending_movies/domain/entities/trending_page.dart';
 import 'package:movie_scope/feature/trending_movies/domain/repositories/trending_movie_repository.dart';
 import 'package:movie_scope/feature/trending_movies/domain/usecases/get_trending_page.dart';
 import 'package:test/test.dart';
 import 'package:dartz/dartz.dart';
+import 'package:mockito/mockito.dart';
 
 class MockTrendingMovieRepository extends Mock
     implements TrendingMovieRepository {}
@@ -79,8 +79,8 @@ void main() {
 
 void _setUpMockTrendingPageFromRepository(
   MockTrendingMovieRepository repository,
-  TrendingPage tTrendingPage1,
+  TrendingPage tTrendingPage,
 ) {
   when(repository.getTrendingMoviePage(any))
-      .thenAnswer((_) async => Right(tTrendingPage1));
+      .thenAnswer((_) async => Right(tTrendingPage));
 }

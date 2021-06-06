@@ -14,12 +14,13 @@ class Movie extends Equatable {
     @required this.posterPath,
     @required this.overview,
     this.isAdult = false,
-  }): assert(id != null),
-  assert(title != null),
-  assert(posterPath != null);
+  })  : assert(id != null),
+        assert(title != null),
+        assert(posterPath != null),
+        assert(isAdult != null);
 
   @override
-  List<Object> get props => [id, title];
+  List<Object> get props => [id, title, posterPath, overview, isAdult];
 
   @override
   bool get stringify => true;

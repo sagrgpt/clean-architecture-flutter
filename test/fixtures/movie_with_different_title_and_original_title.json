@@ -1,0 +1,20 @@
+{
+  "title": "Cruella",
+  "genre_ids": [
+    35,
+    80
+  ],
+  "id": 1,
+  "original_title": "Cruella: The Lady Killer",
+  "poster_path": "/pathToPoster",
+  "overview": "Overview of the movie",
+  "release_date": "2021-05-26",
+  "vote_average": 8.7,
+  "vote_count": 1815,
+  "adult": false,
+  "backdrop_path": "/sgHmoqF97bjM1HUyw43FzjzXtEr.jpg",
+  "video": false,
+  "original_language": "en",
+  "popularity": 8120.774,
+  "media_type": "movie"
+}
